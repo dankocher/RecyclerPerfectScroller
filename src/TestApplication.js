@@ -12,6 +12,7 @@ class TestApplication extends Component {
     componentWillMount() {
         this.start();
     }
+
     async start () {
         let data = new Array(100);
         for (let i = 0; i < data.length; i++) {

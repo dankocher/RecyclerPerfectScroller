@@ -33,11 +33,16 @@
     position: relative;
 }
 .recycler-scroll-width>.recycler-scroll-bar:hover {
-    width: 12px;
+    width: 15px;
     background-color: rgba(125, 125, 125, 0.2);
     padding: 0 2px;
     right: 0;
 }
 .recycler-scroll-width>.recycler-scroll-bar:hover>.scroll-bar-thumb {
     background-color: rgba(0, 0, 0, 0.5);
+}
+.recycler-scroll-width .recycler-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
