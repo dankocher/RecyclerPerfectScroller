@@ -1,3 +1,4 @@
 import RecyclerPerfectScroller from './scripts/RecyclerPerfectScroller';
+import DataProvider from './scripts/DataProvider';
 
-export {RecyclerPerfectScroller};
+export {RecyclerPerfectScroller, DataProvider};

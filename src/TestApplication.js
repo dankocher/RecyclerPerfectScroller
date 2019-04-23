@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
-import {RecyclerPerfectScroller} from './RecyclerPerfectScroller';
-import {DataProvider} from "./RecyclerPerfectScroller/scripts/DataProvider";
+import {RecyclerPerfectScroller, DataProvider} from './RecyclerPerfectScroller';
 
 class TestApplication extends Component {
 

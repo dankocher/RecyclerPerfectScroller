@@ -12,4 +12,4 @@ const DataProvider = (data, layoutProvider) => {
     }
     return dataProvider
 };
-export {DataProvider};
+export default DataProvider;
