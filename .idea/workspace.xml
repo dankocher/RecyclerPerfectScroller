@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4657d70-88e6-4ba1-b143-4aa8ac1402bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RecyclerPerfectScroller/scripts/RecyclerPerfectScroller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecyclerPerfectScroller/scripts/RecyclerPerfectScroller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RecyclerPerfectScroller/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecyclerPerfectScroller/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestApplication.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestApplication.js" afterDir="false" />
-    </list>
+    <list default="true" id="b4657d70-88e6-4ba1-b143-4aa8ac1402bd" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -30,7 +25,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RecyclerPerfectScroller/styles/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
+            <state relative-caret-position="417">
               <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
             </state>
           </provider>
@@ -247,7 +242,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555939315203</updated>
-      <workItem from="1555939317115" duration="24406000" />
+      <workItem from="1555939317115" duration="24465000" />
     </task>
     <task id="LOCAL-00001" summary="Moved DataProvider to library">
       <created>1556003780777</created>
@@ -263,14 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556003878945</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed Height&#10;Added footer&#10;Added OnScrollEnd function">
+      <created>1556023171338</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556023171338</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24406000" />
+    <option name="totallyTimeSpent" value="24465000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1505" y="297" width="1432" height="776" extended-state="0" />
+    <frame x="501" y="269" width="1432" height="776" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
@@ -318,7 +320,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Moved DataProvider to library" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved DataProvider to library" />
+    <MESSAGE value="Fixed Height&#10;Added footer&#10;Added OnScrollEnd function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Height&#10;Added footer&#10;Added OnScrollEnd function" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -394,7 +397,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RecyclerPerfectScroller/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
+        <state relative-caret-position="417">
           <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
         </state>
       </provider>
