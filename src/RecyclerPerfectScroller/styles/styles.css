@@ -1,0 +1,43 @@
+.recycler-perfect-scroller {
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+.recycler-scroll-width {
+    overflow: hidden;
+    position: relative;
+}
+.recycler-perfect-scroller>.scroller-content {
+    overflow: hidden;
+    position: relative;
+}
+.recycler-perfect-scroller>.scroller-content>.recycler-layout {
+    position: absolute;
+    box-sizing: border-box;
+}
+.recycler-scroll-width>.recycler-scroll-bar {
+    width: 6px;
+    height: 100%;
+    position: absolute;
+    padding-right: 2px;
+    right: 0;
+    top: 0;
+    background-color: rgba(125, 125, 125, 0);
+    transition: all 300ms ease;
+}
+.recycler-scroll-width>.recycler-scroll-bar>.scroll-bar-thumb {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: background-color 300ms ease;
+    /*min-height: 20px;*/
+    border-radius: 6px;
+    position: relative;
+}
+.recycler-scroll-width>.recycler-scroll-bar:hover {
+    width: 12px;
+    background-color: rgba(125, 125, 125, 0.2);
+    padding: 0 2px;
+    right: 0;
+}
+.recycler-scroll-width>.recycler-scroll-bar:hover>.scroll-bar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+}
